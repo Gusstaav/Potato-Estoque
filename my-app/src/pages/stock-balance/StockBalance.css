@@ -1,0 +1,162 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+#Section-StockBalance{
+    flex: 1;
+    min-width: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/*campo de procura*/
+
+#Container-StockBalance-search{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    border-bottom: 1px groove #fff;
+}
+#StockBalance-search-input{
+    height: 20px;
+    width: 20vh;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px groove #fff;
+    outline: none;
+    color: #fff;
+}
+
+/* informações do item*/
+
+#StockBalance-list-header{
+    padding: 15px;
+    color: #fff;
+}
+/*caixas de status*/
+#StockBalance-status{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35vh 35vh; 
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#StockBalance-status-box-conference{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: rgb(37, 0, 37);
+    color: #fff;
+}
+
+#StockBalance-status-box-conference-title{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#StockBalance-status-box-conference-info{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#StockBalance-status-box-stock{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #810103;
+}
+
+#StockBalance-status-box-stock-title{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#StockBalance-status-box-stock-info{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/*informações do item*/
+
+#container-info-StockBalance-Header{
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30vh 30vh 30vh;
+    border-top: 1px solid #fff;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#container-info-StockBalance-Itens{
+    padding-top: 0;
+    padding-left: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30vh 30vh 30vh;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#info-StockBalance-Itens{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+#container-info-total{
+    padding: 10px;
+    margin: 0;
+    width: 30vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#total-itens-StockBalance{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#total-itens-StockBalance-info{
+    margin-top: 0;
+    padding-top: 0;
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
