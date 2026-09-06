@@ -18,17 +18,23 @@ function Sidebar() {
                 <NavLink id='options-sidebar-home' to="/home">
                     Início
                 </NavLink>
-                
-                <div id='options-sidebar-estoque'>
-                    <p>Estoque</p>
-                        <NavLink id='picking' to="/conferencia">Conferencia</NavLink>
-                        <NavLink id='picking' to="/picking">Inventario</NavLink>
-                </div>
 
+                <div id='options-sidebar-perfil'>
+                    <p>Perfil</p>
+                        <NavLink id='picking' to="/conferencia">Perfil</NavLink>
+                </div>
+                
                 <div id='options-sidebar-picking'>
                     <p>Picking</p>
                     <NavLink id='picking' to="/picking">Separação</NavLink>
                 </div>
+
+                <div id='options-sidebar-estoque'>
+                    <p>Estoque</p>
+                        <NavLink id='picking' to="/conference">Conferencia</NavLink>
+                        <NavLink id='picking' to="/stock-balance">Saldo</NavLink>
+                </div>
+
 
                 <NavLink id='settings' to="/configuracoes">
                     Configurações

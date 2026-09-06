@@ -51,6 +51,7 @@ html, body {
     border-left: none;
     border-right: none;
     border-bottom: #fff solid;
+    outline: none;
 }
 #senha-label{
     margin-top: 25px;
@@ -66,6 +67,7 @@ html, body {
     border-left: none;
     border-right: none;
     border-bottom: #fff solid;
+    outline: none;
 }
 
 #button-submit{

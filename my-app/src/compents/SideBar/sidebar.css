@@ -2,28 +2,37 @@ body {
     margin: 0;
     padding: 0;
 }
+/* titulo do programa */
 #title-sidebar{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-align: center;
-    color: #810103;
+    color: #fff;
 }
-
+/* Icone do menu */
 #Icon-Menu{
     height: 25px;
     width: 25px;
     transition: width 0.5s ease;
     overflow: hidden;
 }
-
+/* Boas vindas ao software */
 #welcome-sidebar{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     color: white;
 }
+
+/* Name do User */
+
 #welcome-sidebar-user{
-    padding: 5px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 100%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -34,17 +43,23 @@ body {
     border-left: none;
     border-right: none;
 }
+
+/* Sidebar */
+
 #sidebar{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 80px;
     height: 100vh;
-    background-color: rgb(29, 29, 29);
+    background-color: #810103;
     flex-shrink: 0;
     transition: width 0.5s ease;
     overflow: hidden;
 }
+
+/* Conteudo sidebar */
+
 #menu-sidebar{
     display: none;
     height: 100%;
@@ -59,12 +74,15 @@ body {
     }
 }
 
+/* Links sidebar */
+
 #options-sidebar-home{
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 7vh;
+    height: 5vh;
     width: 100%;
     border-bottom: 1px solid white;
     font-family: Arial, Helvetica, sans-serif;
@@ -76,16 +94,18 @@ body {
 
 #options-sidebar-home:hover{
         cursor: pointer;
-        background-color: red;
+        background-color: #810103;
         transition: 1s;
     }
+
+/* Style settings */
 
 #settings{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 7vh;
+    height: 5vh;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -94,6 +114,8 @@ body {
     transition: height 0.3s ease;
 }
 
+/* Style option sidebar */
+
 #picking{
     display: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -101,13 +123,51 @@ body {
     color: white;
     text-decoration: none;
 }
+/* Style option sidebar Perfil */
+#options-sidebar-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    height: 5vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    transition: height 0.3s ease;
+}
 
+#options-sidebar-perfil:hover{
+    height: 13vh;
+    background-color: #810103;
+    #picking{
+        display:flex;
+        height: 6vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(87, 0, 0);
+        border-top: 1px solid white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: white;
+    }
+    #picking:hover{
+        cursor: pointer;
+        transition: 1s;
+    }
+}
+/* Style option sidebar estoque */
 #options-sidebar-estoque{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 7vh;
+    margin-bottom: 5px;
+    height: 5vh;
     width: 100%;
     border-bottom: 1px solid white;
     font-family: Arial, Helvetica, sans-serif;
@@ -119,14 +179,15 @@ body {
 
 #options-sidebar-estoque:hover{
     height: 18vh;
-    background-color: red;
+    background-color: #810103;
     #picking{
         display:flex;
         height: 9vh;
         width: 100%;
         align-items: center;
         justify-content: center;
-        background-color: rgb(29, 29, 29);
+        background-color: rgb(87, 0, 0);
+        border-top: 1px solid white;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 13px;
         color: white;
@@ -136,13 +197,13 @@ body {
         transition: 1s;
     }
 }
-
+/* Style option picking */
 #options-sidebar-picking{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 7vh;
+    height: 5vh;
     width: 100%;
     border-bottom: 1px solid white;
     font-family: Arial, Helvetica, sans-serif;
@@ -153,15 +214,17 @@ body {
 }
 
 #options-sidebar-picking:hover{
-    height: 14vh;
-    background-color: red;
+    height: 13vh;
+    background-color: #810103;
+    cursor: pointer;
     #picking{
         display:flex;
-        height: 8vh;
+        height: 6vh;
         width: 100%;
         align-items: center;
         justify-content: center;
-        background-color: rgb(29, 29, 29);
+        border-top: 1px solid white;
+        background-color: rgb(87, 0, 0);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 13px;
         color: white;

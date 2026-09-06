@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router-dom';
-import './home.css'
+import './StockBalance.css'
 
 
-function Home(){
+function StockBalance(){
     return(
         <section id='section-home'>
             <div id="container-home-dashboard">
@@ -33,4 +33,4 @@ function Home(){
     )
 }
 
-export default Home
+export default StockBalance
